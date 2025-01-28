@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌟 Full-Screen Dark Mode */
+body {
+  @apply bg-gray-900 text-white;
+}
+
+/* 🌟 Code Input Styling */
+textarea {
+  @apply w-full h-full p-4 bg-gray-800 text-white rounded-lg border border-gray-700 outline-none resize-none text-sm leading-6;
+}
+
+/* 🌟 General Button Styling */
+button {
+  @apply px-6 py-3 text-white font-semibold rounded-lg shadow-md transition-all duration-300;
+}
+
+/* 🟣 Modern Gradient Button */
+.btn-primary {
+  @apply bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600;
+}
