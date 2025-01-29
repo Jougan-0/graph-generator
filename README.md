@@ -24,7 +24,7 @@ The project follows these steps:
 ## Workflow Diagram
 Below is the flowchart illustrating the system workflow:
 
-![Smart Contract Workflow](./image.png)
+![Smart Contract Workflow](./image.jpg)
 
 ## Features
 - **Smart Contract Input:** Accepts smart contract code from the user.
