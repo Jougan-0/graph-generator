@@ -37,7 +37,7 @@ export default function Home() {
 
     try {
       const response = await axios.post(
-        "https://graph-generator-66du.onrender.com/generate-graph",
+        `${process.env.NEXT_PUBLIC_API_URL}/generate-graph`,
         {
           code,
           model: selectedModel,
