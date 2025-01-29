@@ -113,7 +113,6 @@ export default function Home() {
 
         const nodesArray = Array.from(nodeMap.values());
 
-        // Layout Nodes Properly
         const { nodes: layoutedNodes, edges: layoutedEdges } =
           getLayoutedElements(nodesArray, formattedEdges, {
             rankdir: "TB",
