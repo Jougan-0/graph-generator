@@ -89,9 +89,9 @@ def generate_graph():
     code = data.get("code")
     model = data.get("model")
 
-    if model == "80Bmodel":
+    if model == "8Bmodel":
         model = "lumolabs/Lumo-8B-Instruct"
-    elif model == "7Bmodel":
+    elif model == "70Bmodel":
         model = "lumolabs/Lumo-70B-Instruct"
     else:
         model = "lumolabs/Lumo-DeepSeek-R1-8B"
