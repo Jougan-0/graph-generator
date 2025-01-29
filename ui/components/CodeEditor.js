@@ -44,7 +44,7 @@ export default function CodeEditor({
       </div>
 
       <div className="flex justify-between mt-4">
-        {["80Bmodel", "7Bmodel", "DeepSeek"].map((model) => (
+        {["8Bmodel", "70Bmodel", "DeepSeek"].map((model) => (
           <button
             key={model}
             onClick={() => setSelectedModel(model)}
